@@ -1,0 +1,20 @@
+# --- Vivado / FPGA Tool Junk ---
+*.log
+*.jou
+*.str
+*.dir
+.Xil/
+*.pb
+*.vcd
+*.wdb
+xsim.dir/
+
+# --- Compiled Binaries ---
+*.bit
+*.bin
+*.mcs
+*.prm
+
+# --- OS Specific ---
+.DS_Store
+Thumbs.db
