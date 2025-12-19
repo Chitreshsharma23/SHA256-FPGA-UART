@@ -22,7 +22,7 @@ This repository contains the hardware implementation of a high-speed **SHA-256 H
   - `sha.v`: The 64-round compression engine.
 - **/sim**: Testbench files for functional verification.
 - **/constraints**: `.xdc` files for Artix-7 physical pin mapping.
-- **/docs**: Contains the [Full Internship Report](./docs/Final_report_chitresh_31-10.pdf) detailing the architecture and results.
+- **/docs**: Contains the [Full Internship Report](./docs/Final_report_SHA_256.pdf) detailing the architecture and results.
 
 ## 🛠 Functional Workflow
 1. **Reception:** The system captures 56 bytes (448 bits) of raw data via the `rx_serial` pin.
@@ -41,6 +41,6 @@ To verify the logic:
 3. Observe the `hash` output register upon the `complete` signal assertion.
 
 ## 📜 Credits
-- **Author:** Chitresh Sharma (Roll No: 22WJ8A0409)
+- **Author:** Chitresh Sharma (Roll No: 22WJ8A0409) Guru Nanak Institutions Technical Campus (GNITC)
 - **Guidance:** Mrs. K. Madhuri (Sr. Dy. General Manager, CR&D, ECIL)
-- **Institution:** Guru Nanak Institutions Technical Campus (GNITC)
+
